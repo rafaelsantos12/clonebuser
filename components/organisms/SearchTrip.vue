@@ -26,6 +26,7 @@
         borderRadius="5px"
         hoverBgColor="#f26995"
         class="mt-6"
+        @click="throwError"
       >
         <AtomsIcon
           iconName="magnifying-glass"
@@ -41,6 +42,13 @@
 <script>
 export default {
   name: "SearchTrip",
+  methods: {
+    throwError() {
+      console.log("metodo error");
+      throw new Error("Sentry Error");
+      // this.$sentry.captureException(new Error("example"));
+    },
+  },
 };
 </script>
 
