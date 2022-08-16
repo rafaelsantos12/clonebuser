@@ -65,7 +65,7 @@ export default {
   modules: ["@nuxt/image", "@nuxtjs/sentry"],
 
   sentry: {
-    dsn: "https://a5a1c70a067c41e585c13da080a82292@o1339238.ingest.sentry.io/6611114",
+    dsn: process.env.SENTRY_DNS,
     publishRelease: true,
     sourceMapStyle: "hidden-source-map",
     config: {
