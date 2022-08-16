@@ -62,15 +62,21 @@ export default {
 
   target: "server",
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ["@nuxt/image", "@nuxtjs/sentry"],
+  modules: [
+    "@nuxt/image",
+    [
+      "@nuxtjs/sentry",
+      {
+        /*options*/
+      },
+    ],
+  ],
 
   sentry: {
-    dsn: "https://a5a1c70a067c41e585c13da080a82292@o1339238.ingest.sentry.io/6611114",
     publishRelease: true,
-    sourceMapStyle: "hidden-source-map",
-    config: {
-      release: "1.2.3",
-    },
+    dns: "",
+
+    config: {},
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

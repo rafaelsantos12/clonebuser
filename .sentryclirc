@@ -3,5 +3,5 @@
 [defaults]
 org = rafael-h3
 project = nuxtjs
-url = https://a5a1c70a067c41e585c13da080a82292@o1339238.ingest.sentry.io/6611114
-token= d0c4d078a19d40d19dae39a1375a938766757dc8a28346609fc33354e5d6bfb6
+dns= https://a5a1c70a067c41e585c13da080a82292@o1339238.ingest.sentry.io/6611114
+authToken= d0c4d078a19d40d19dae39a1375a938766757dc8a28346609fc33354e5d6bfb6

@@ -1546,6 +1546,15 @@
     "@sentry/utils" "6.19.7"
     "tslib" "^1.9.3"
 
+"@sentry/hub@7.8.1":
+  "integrity" "sha512-AxwyGyS9Lp4XsURu4t8opa5vZ+NAB6I/n+B/Uix3YZea9z8jdWYAu9vsXSizOrtxekc/i7ZN4bnlNgXVHix0iA=="
+  "resolved" "https://registry.npmjs.org/@sentry/hub/-/hub-7.8.1.tgz"
+  "version" "7.8.1"
+  dependencies:
+    "@sentry/types" "7.8.1"
+    "@sentry/utils" "7.8.1"
+    "tslib" "^1.9.3"
+
 "@sentry/integrations@^6.17.3":
   "integrity" "sha512-yNeeFyuygJaV7Mdc5qWuDa13xVj5mVdECaaw2Xs4pfeHaXmRfRzZY17N8ypWFegKWxKBHynyQRMD10W5pBwJvA=="
   "resolved" "https://registry.npmjs.org/@sentry/integrations/-/integrations-6.19.7.tgz"
@@ -1579,10 +1588,25 @@
     "lru_map" "^0.3.3"
     "tslib" "^1.9.3"
 
+"@sentry/tracing@^7.8.1":
+  "integrity" "sha512-orNVCsMtQUKhvh7GmyJzjOhU6oT7lC7TRT7tTRlyXQVrUmfJZsthmBtyfrTC7QWJ9vXQ0mB4jab8kMT3xE4ltg=="
+  "resolved" "https://registry.npmjs.org/@sentry/tracing/-/tracing-7.8.1.tgz"
+  "version" "7.8.1"
+  dependencies:
+    "@sentry/hub" "7.8.1"
+    "@sentry/types" "7.8.1"
+    "@sentry/utils" "7.8.1"
+    "tslib" "^1.9.3"
+
 "@sentry/types@6.19.7":
   "integrity" "sha512-jH84pDYE+hHIbVnab3Hr+ZXr1v8QABfhx39KknxqKWr2l0oEItzepV0URvbEhB446lk/S/59230dlUUIBGsXbg=="
   "resolved" "https://registry.npmjs.org/@sentry/types/-/types-6.19.7.tgz"
   "version" "6.19.7"
+
+"@sentry/types@7.8.1":
+  "integrity" "sha512-LOoaeBXVI23Kh5SpIbxSRiJ6+eYZXVOFyPFH1T1mGBj95LPwRMqOdg0lUTmFJGBKbDGDB/YNjNnu1kQ7GrXBXw=="
+  "resolved" "https://registry.npmjs.org/@sentry/types/-/types-7.8.1.tgz"
+  "version" "7.8.1"
 
 "@sentry/utils@6.19.7":
   "integrity" "sha512-z95ECmE3i9pbWoXQrD/7PgkBAzJYR+iXtPuTkpBjDKs86O3mT+PXOT3BAn79w2wkn7/i3vOGD2xVr1uiMl26dA=="
@@ -1590,6 +1614,14 @@
   "version" "6.19.7"
   dependencies:
     "@sentry/types" "6.19.7"
+    "tslib" "^1.9.3"
+
+"@sentry/utils@7.8.1":
+  "integrity" "sha512-isUZjft4HWTOk1Z58KFJ/zzXeFtIJgP82CkYQlW464ZR2WCqPHYlXXXRWZpOHOfMnrf+gWeX9WAGS9rTAdhiSg=="
+  "resolved" "https://registry.npmjs.org/@sentry/utils/-/utils-7.8.1.tgz"
+  "version" "7.8.1"
+  dependencies:
+    "@sentry/types" "7.8.1"
     "tslib" "^1.9.3"
 
 "@sentry/webpack-plugin@^1.18.4":

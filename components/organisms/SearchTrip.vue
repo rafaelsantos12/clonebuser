@@ -46,7 +46,6 @@ export default {
     throwError() {
       console.log("metodo error");
       throw new Error("Sentry Error");
-      // this.$sentry.captureException(new Error("example"));
     },
   },
 };

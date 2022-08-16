@@ -13,22 +13,32 @@
       </AtomsTitle>
     </div>
 
-    <div class="border border-inherit p-4">
-      <div class="flex head-card justify-between mt-6">
-        <AtomsTitle tag="h5" fontSize="14px" fontWeight="600"
-          >Saindo de</AtomsTitle
-        >
-        <AtomsTitle tag="h5" fontSize="14px" fontWeight="600"
-          >Preço a partir de
+    <div class="border border-inherit p-6">
+      <div class="flex head-card justify-between">
+        <AtomsTitle tag="h5" fontSize="14px" fontWeight="600">
+          Saindo de
+        </AtomsTitle>
+        <AtomsTitle tag="h5" fontSize="14px" fontWeight="600">
+          Preço a partir de
         </AtomsTitle>
       </div>
-      <hr width="95%" class="center mt-2 m-auto" />
-      <div class="flex justify-between body-card">
-        <slot name="content" />
+      <hr width="100%" class="center mt-3 m-auto" />
+
+      <slot name="content" />
+
+      <hr width="95%" class="center mt-3 m-auto" />
+      <div class="footer-card mt-6">
+        <AtomsInternalLink
+          href="/"
+          color="#f11075"
+          fontSize="14px"
+          fontWeight="700"
+          hoverColor="#f11075"
+        >
+          Ver todos ônibus para {{ cityTitle }}
+        </AtomsInternalLink>
       </div>
     </div>
-
-    <div class="footer-card">Ver todos ônibus para {{ cityTitle }}</div>
   </div>
 </template>
 <script>

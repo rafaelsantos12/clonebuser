@@ -10,13 +10,13 @@
       fontSize="24px"
     >
       <template v-slot:content>
-        <div class="flex head-card place-content-around mt-6">
-          <AtomsTitle tag="h5" fontSize="14px" fontWeight="600"
-            >{{ city.name }} test
-          </AtomsTitle>
-          <AtomsTitle tag="h5" fontSize="14px" fontWeight="600">
-            {{ city.name }} teste
-          </AtomsTitle>
+        <div
+          v-for="city in citys"
+          :key="city.name"
+          class="flex justify-between body-card mt-6"
+        >
+          <span class="font-semibold text-sm">{{ city.name }}</span>
+          <span class="text-sm">{{ city.price }}</span>
         </div>
       </template>
     </MoleculesCard>
@@ -28,9 +28,25 @@ export default {
   name: "IndexPage",
   data() {
     return {
-      city: [
+      citys: [
         {
           name: "Belo Horizonte",
+          price: "R$ 109,90",
+        },
+        {
+          name: "São Paulo",
+          price: "R$ 109,90",
+        },
+        {
+          name: "Uberlânida",
+          price: "R$ 109,90",
+        },
+        {
+          name: "Ribeirão Preto",
+          price: "R$ 109,90",
+        },
+        {
+          name: "Campinas",
           price: "R$ 109,90",
         },
       ],
