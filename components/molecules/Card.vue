@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper-card max-w-sm m-auto mt-8" :style="varCSS">
+  <div class="wrapper-card max-w-sm mt-8" :style="varCSS">
     <div class="top-card rounded-t-md p-6 pt-16">
       <AtomsTitle tag="h5" :color="colorTitle" fontSize="18px" class="mb-2">{{
         topTitle
@@ -13,7 +13,7 @@
       </AtomsTitle>
     </div>
 
-    <div class="border border-inherit p-6">
+    <div class="border border-inherit p-6 rounded-b-lg">
       <div class="flex head-card justify-between">
         <AtomsTitle tag="h5" fontSize="14px" fontWeight="600">
           Saindo de
@@ -27,7 +27,7 @@
       <slot name="content" />
 
       <hr width="95%" class="center mt-3 m-auto" />
-      <div class="footer-card mt-6">
+      <div class="footer-card mt-3">
         <AtomsInternalLink
           href="/"
           color="#f11075"
