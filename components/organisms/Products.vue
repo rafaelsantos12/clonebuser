@@ -21,7 +21,7 @@
               color="#fff"
               bgColor="#FFC107"
               borderColor="#FFC107"
-              >Comprar</AtomsButtonCustom
+              >WhatsApp</AtomsButtonCustom
             >
           </div>
         </template>
