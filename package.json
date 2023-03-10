@@ -7,7 +7,9 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "dist": "npm run generate && rimraf dist/**/*.js.map"
+    "dist": "npm run generate && rimraf dist/**/*.js.map",
+    "lint:js": "eslint src/**/*.js",
+    "lint": "npm run lint:js"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
@@ -28,6 +30,7 @@
     "@nuxt/image": "^0.7.1",
     "@nuxtjs/fontawesome": "^1.1.2",
     "@nuxtjs/tailwindcss": "^4.2.1",
+    "eslint": "8.35.0",
     "postcss": "^8.4.4"
   }
 }

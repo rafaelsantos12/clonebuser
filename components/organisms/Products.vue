@@ -14,7 +14,7 @@
             </AtomsTitle>
             <span class="text-sm text-white font-semibold text-xs">
               Aproveite nossos pacotes promocionais com ônibus + hotel com café
-              da manhã!
+              da manhã!!!
             </span>
             <AtomsButtonCustom
               class="mt-6"
