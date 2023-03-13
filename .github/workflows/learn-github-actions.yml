@@ -28,4 +28,4 @@ jobs: # list of things to do
         run: yarn install
 
       - name: Run ESLint
-        run: eslint . --ext .js,.jsx,.ts,.tsx
+        run: eslint . --ext .vue,.js,.jsx,.ts,.tsx
