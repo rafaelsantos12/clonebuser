@@ -27,5 +27,12 @@ jobs: # list of things to do
       - name: Install Dependencies
         run: yarn install
 
-      - name: Run ESLint
-        run: npm run lint
+      - name: Run eslint on changed files
+        uses: tj-actions/eslint-changed-files@v18
+        with:
+          config_path: "/path/to/.eslintrc"
+          extra_args: "--max-warnings=0"
+          file_extensions: |
+            **/*.ts
+            **/*.tsx
+            **/*.vue
