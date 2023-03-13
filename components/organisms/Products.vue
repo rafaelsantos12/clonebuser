@@ -94,8 +94,7 @@
 export default {
   name: "Products",
   mounted() {
-    console.log("Pzdxs");
-  },
+    console.log("Pzdddsd")
 };
 </script>
 
