@@ -93,6 +93,9 @@
 <script>
 export default {
   name: "Products",
+  mounted() {
+    console.log("Products");
+  },
 };
 </script>
 
