@@ -7,9 +7,7 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "dist": "npm run generate && rimraf dist/**/*.js.map",
-    "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "lint": "npm run lint:js"
+    "dist": "npm run generate && rimraf dist/**/*.js.map"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
