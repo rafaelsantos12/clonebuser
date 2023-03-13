@@ -27,5 +27,5 @@ jobs: # list of things to do
       - name: Install Dependencies
         run: yarn install
 
-      - name: Code Linting
-        run: npm run lint
+      - name: Run ESLint
+        run: eslint . --ext .js,.jsx,.ts,.tsx
