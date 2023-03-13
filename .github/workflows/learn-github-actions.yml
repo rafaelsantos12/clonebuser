@@ -31,7 +31,6 @@ jobs: # list of things to do
         uses: tj-actions/eslint-changed-files@v18
         with:
           config_path: "/path/to/.eslintrc"
-          ignore_path: "/path/to/.eslintignore"
           extra_args: "--max-warnings=0"
           file_extensions: |
             **/*.ts
