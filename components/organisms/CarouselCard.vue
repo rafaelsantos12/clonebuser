@@ -18,7 +18,7 @@
       <MoleculesCard
         topTitle="Ônibus para"
         cityTitle="Brasília"
-        colorTitle="#fff"
+        colorTitle="#ffff"
         fontSize="24px"
       >
         <template v-slot:content>
