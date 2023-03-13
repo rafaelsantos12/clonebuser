@@ -28,4 +28,4 @@ jobs: # list of things to do
         run: yarn install
 
       - name: Run ESLint
-        run: npm run lint
+        uses: stefanoeb/eslint-action@1.0.2
